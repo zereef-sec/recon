@@ -14,3 +14,5 @@ pipx install git+https://github.com/xnl-h4ck3r/waymore.git
 go install -v github.com/lc/gau/v2/cmd/gau@latest
 go install -v github.com/projectdiscovery/katana/cmd/katana@latest
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+nuclei -up
+nuclei -ut
