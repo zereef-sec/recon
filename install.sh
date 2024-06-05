@@ -1,7 +1,6 @@
 # Install all the required tools
 apt update
 apt install golang -y
-export PATH=$PATH:~/go/bin
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/tomnomnom/anew@latest
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
@@ -16,3 +15,4 @@ go install -v github.com/projectdiscovery/katana/cmd/katana@latest
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 nuclei -up
 nuclei -ut
+export PATH=$PATH:~/go/bin
